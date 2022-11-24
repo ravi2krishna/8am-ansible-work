@@ -10,6 +10,6 @@
   tasks:
   - name: Update HTTPD Config
     template:
-      src: dynamic.j2
-      dest: /var/www/html/dynamic.html
+      src: httpd.j2
+      dest: /etc/httpd/conf/httpd.conf
 ...
